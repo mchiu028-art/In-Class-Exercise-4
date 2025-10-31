@@ -1,0 +1,16 @@
+[2025-10-31 21:19:58] [/workspaces/In-Class-Exercise-4] source .devcontainer/shell.sh
+[2025-10-31 21:20:26] [/workspaces/In-Class-Exercise-4] ls exercise/ > output.txy
+[2025-10-31 21:20:30] [/workspaces/In-Class-Exercise-4] ls exercise/ > output.txt
+[2025-10-31 21:21:23] [/workspaces/In-Class-Exercise-4] dlaksdjf 2> error.log
+[2025-10-31 21:21:54] [/workspaces/In-Class-Exercise-4] ls exercise/ | wc -l
+[2025-10-31 21:23:26] [/workspaces/In-Class-Exercise-4] ls exercise/ | grep ".txt"
+[2025-10-31 21:24:28] [/workspaces/In-Class-Exercise-4] cat exercise/duplicates.txt
+[2025-10-31 21:24:41] [/workspaces/In-Class-Exercise-4] cat exercise/duplicates.txt | sort | uniq
+[2025-10-31 21:25:08] [/workspaces/In-Class-Exercise-4] ls
+[2025-10-31 21:25:35] [/workspaces/In-Class-Exercise-4] wc -l <(ls exercise/)
+[2025-10-31 21:26:56] [/workspaces/In-Class-Exercise-4] grep exercise/duplicates.txt <<< "Duplicate"
+[2025-10-31 21:28:29] [/workspaces/In-Class-Exercise-4] cat << EOF > message.txt
+hello cs190
+EOF
+[2025-10-31 21:29:55] [/workspaces/In-Class-Exercise-4] diff <(ls exercise/dir
+[2025-10-31 21:30:15] [/workspaces/In-Class-Exercise-4] diff <(ls exercise/dir1) <(ls exercise/dir2)

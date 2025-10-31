@@ -1,0 +1,5 @@
+dir1
+dir2
+duplicates.txt
+sample1.txt
+sample2.txt
